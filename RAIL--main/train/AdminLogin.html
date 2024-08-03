@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="ISO-8859-1">
+        <title>LOGIN</title>
+        <style>
+            body{
+                background-image: url(tra.jpg);
+                background-repeat: no-repeat;
+            }
+            h1{
+                text-align: center;
+                color: rgb(32, 124, 37);
+            }
+            .main{
+			border:1px blue solid;
+			background-color: rgb(29, 214, 75);
+			border-radius: 10px;
+			text-align: center;
+			margin-left:22%;
+			margin-right: 33.3%;
+			padding:10px;
+			margin-bottom: 20px;
+			width:700px;
+			color:red;
+		}
+            .menu{
+			border:1px black solid;
+			border-radius: 13px;
+			background-color: white;
+			color:green;
+			font-weight: bold;
+			font-size:18px;
+			text-align: center;
+			margin-right:15px;
+			padding:5px;
+			padding-left: 10px;
+			padding-right: 10px;
+			width:130px;
+		}
+        .tab{
+		border:1px black solid;
+		border-radius: 15px;
+		background-color: #eca660;
+		margin-left: 30%;
+		width:450px;
+		color:rgb(78, 67, 67);
+		font-weight: bold;
+		font-style:normal;
+		text-align:center;
+		font-size: 22px;
+		margin-bottom:10px;
+		padding:10px;
+	    }
+        </style>
+    </head>
+    <body>
+    <header>
+       <h1> INDIAN RAILWAY TICKET RESERVATION <br> [IRTR]</h1>
+       <div class="main">
+		<p1 class="menu"><a href="login.html">Login as User</a></p1>
+		<p1 class="menu"><a href="register.html">New User Register</a></p1>
+		<p1 class="menu"><a href="AdminLogin.html">Login as Admin</a></p1>
+	    </div>
+    </header>
+	<table class="tab">
+		<tr>
+			<td>Admin Login</td>
+		</tr>
+	</table>
+    <form action="AdminHome.html" class="tab brown" >
+		<br/>AdminName: <input type="text" name="uname" required><br/><br/>
+		Password: <input type="password" name="pword" required><br/><br/>
+		<input type="submit" value=" LOGIN " action='AdminHome.html'><br/>
+
+	</form><br/>
+    </body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TRAIN BOOKING</title>
+        <style>
+        h1
+        {
+        text-align: center;
+        color: rgb(32, 124, 37);
+        }
+        body
+        {
+        background-image: url(tra.jpg);
+        background-repeat: no-repeat;
+        background-attachment:scroll;
+        }
+        .tab{
+		border:1px black solid;
+		border-radius: 15px;
+		background-color: #f8e5d2;
+		margin-left: 30%;
+		width:450px;
+		color:rgb(78, 67, 67);
+		font-weight: bold;
+		font-style:normal;
+		text-align:center;
+		font-size: 22px;
+		margin-bottom:10px;
+		padding:10px;
+	    }
+        </style>
+    </head>
+    <body>
+       <h1>INDIAN RAILWAY TICKET RESERVATION <br> [IRTR]</h1>
+       <form class="tab" method="post" action="conform.html">
+        <label>
+            <p><B>Name:</B> <input type="text" name="name" value="" placeholder="Name of passenger" required/></p>
+            <p><B>Age:</B> <input type="text" name="name" value="" placeholder="Enter Age" required/></p>
+            <p><b>Passengers:</b><input type="number" size="10" placeholder="Number of passengers" required/></p>
+            <p><b>Seats:</b><input type="number" size="3" placeholder="Number of Seats" required/></p>
+           <br>
+            <input type="submit" name="submit" value="BOOK & PAY"/>
+         </label>
+	   </form><br/>
+    </body>
+</html>

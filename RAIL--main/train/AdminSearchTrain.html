@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="ISO-8859-1">
+	<title>Admin Home</title>
+
+	<style>
+		h1 {
+			text-align: center;
+			color: rgb(32, 124, 37);
+		}
+
+		body {
+			background-image: url(tra.jpg);
+			background-repeat: no-repeat;
+			background-attachment: scroll;
+		}
+
+		.menu {
+			border: 1px black solid;
+			border-radius: 13px;
+			background-color: rgb(255, 255, 255);
+			color: green;
+			font-weight: bold;
+			font-size: 18px;
+			text-align: center;
+			margin-right: 15px;
+			padding: 5px;
+			padding-left: 10px;
+			padding-right: 10px;
+			width: 130px;
+		}
+
+		.home {
+			border: 1px black solid;
+			border-radius: 5px;
+			background-color: #eca660;
+			width: 200px;
+			color: blue;
+			font-weight: bold;
+			font-style: italic;
+			text-align: center;
+			font-size: 25px;
+			margin-bottom: 10px;
+			padding: 10px;
+			float: left;
+			clear: both;
+		}
+
+		.tab {
+			border: 1px black solid;
+			border-radius: 15px;
+			background-color: #f8e5d2;
+			margin-left: 30%;
+			width: 700px;
+			color: black;
+			font-weight: bold;
+			font-style: normal;
+			text-align: center;
+			font-size: 20px;
+			margin-bottom: 10px;
+			padding: 10px;
+			margin-top: 10px;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<h1>INDIAN RAILWAY TICKET RESERVATION <br> [IRTR] </h1>
+		<div class="home">
+			<p1 class="menu"><a href="AdminHome.html">Home</a></p1>
+		</div>
+		<div class="home">
+			<p1 class="menu"><a href="AdminSearchTrain.html">Search Trains</a></p1>
+		</div>
+		<div class="home">
+			<p1 class="menu"><a href="traindetails.html">View Trains</a></p1>
+		</div>
+		<div class="home">
+			<p1 class="menu"><a href="AddTrains.html">Add Train</a></p1>
+		</div>
+		
+		<div class="home">
+			<p1 class="menu"><a href="AdminLogin.html">Logout</a></p1>
+		</div>
+	</header>
+<div class='tab'>
+		<p1 class='menu'>
+	Hey, Admin ! Welcome to our new IRTR Website
+		</p1>
+</div>
+<div class="main"><p1 class="menu">Search Trains</p1></div>
+<form action="hyd.html" class="tab red" ><br/>
+		TrainNumber: <input type="text" name="trainnumber"><br/><br/>
+		<input type="submit" value=" SEARCH TRAIN " action='hyd.html'><br/>
+	</form><br/>
+</body>
+</html>
